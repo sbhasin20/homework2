@@ -99,12 +99,12 @@ print(table)
 \vspace{.2in}
 \noindent Question 8
 
-With these differnt treatment effect estimators, the results are identical. 
+With these different treatment effect estimators, the results are identical. 
 
 \vspace{.2in}
 \noindent Question 9
 
-I think we have estimated a causal effect of the penalty by matching with inverse variance distance and Mahalanobis distance as well as inverse propensity weighting. Also, running the simple linear regression was another method for eliminating potential confounding variables, suggesting a causal effect.  
+I do not think I have estimated a causal effect of the penalty. There are several variables that affect hospital price and we only controlled for one of them.  
 
 \vspace{.2in}
 \noindent Question 10
