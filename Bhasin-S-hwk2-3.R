@@ -158,9 +158,9 @@ table <- data.frame("Matching Inverse Variance" = inv_var$est,
 
 table
 
-#8 With these differnt treatment effect estimators, the results are identical. 
+#8 With these different treatment effect estimators, the results are identical. 
 
-#9 I think we have estimated a causal effect of the penalty by matching with inverse variance distance and Mahalanobis distance as well as inverse propensity weighting. Also, running the simple linear regression was another method for eliminating potential confounding variables, suggesting a causal effect.  
+#9 I do not think I have estimated a causal effect of the penalty. There are several variables that affect hospital price and we only controlled for one of them. 
 
 #10 I found working with this data challenging but easier than homework 1 as I am getting more comfortable trouble shooting and working with this application. I learned how to create a dummy variable and quartiles for a data set. It was very aggravating to troubleshoot the error I kept getting with the propensity score and number 7 in general. 
 
